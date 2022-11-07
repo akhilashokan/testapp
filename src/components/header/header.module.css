@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 1px solid #E2E2EA;
+}
+
+.logo {
+    width: 100%;
+    max-width: 15vw;
+    border-right: 1px solid #E2E2EA;
+    justify-self: flex-start;
+    padding: 1rem 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cta button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #00A86B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 213px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 22.12px;
+    height: 17px;
+}

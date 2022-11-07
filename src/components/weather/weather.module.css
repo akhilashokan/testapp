@@ -1,0 +1,45 @@
+.wrapper {
+    padding: 0.5rem 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: gainsboro;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.niceInfo {
+    text-align: left;
+}
+
+.niceInfo h3 {
+    font-size: 1.5rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.info {
+    text-align: right;
+    font-size: 0.8em;
+}
