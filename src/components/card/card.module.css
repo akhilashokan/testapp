@@ -1,5 +1,5 @@
 .container {
-    border: 1px solid #333;
+    border: 1px solid #F1F1F5;
     border-radius: 1rem;
     width: fit-content;
     overflow: hidden;
@@ -7,5 +7,5 @@
 
 .container:Hover,
 .container:active {
-    border-color: green;
+    border-color: #CBDDA1;
 }

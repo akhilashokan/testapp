@@ -5,6 +5,6 @@ export default function Greet({ name }) {
         fontSize: "0.8em"
     }
     return (
-        <h2 style={{ textAlign: "left" }}>Hi {name}, <span style={spanStyle}>here's your site overview</span> </h2>
+        <h2 style={{ textAlign: "left" }}>Hi 👋 {name}, <span style={spanStyle}>here's your site overview</span> </h2>
     )
 } 

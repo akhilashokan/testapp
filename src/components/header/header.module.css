@@ -1,16 +1,16 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
     border-bottom: 1px solid #E2E2EA;
+    background-color: #ffffff;
 }
 
 .logo {
     width: 100%;
-    max-width: 15vw;
+    max-width: 249px;
     border-right: 1px solid #E2E2EA;
     justify-self: flex-start;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
 }
 
 .info {
