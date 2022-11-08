@@ -30,9 +30,9 @@ export default function Weather({ data }) {
                     <p>{data.address}</p>
                 </div>
                 <div className={style.info}>
-                    <p>Precipitation: {data.precp}%</p>
-                    <p>Humidity: {data.hum}%</p>
-                    <p>Wind: {data.wind}{data.scale === 'metric' ? 'km/h' : 'mph'} </p>
+                    <p>Precipitation: <span>{data.precp}%</span></p>
+                    <p>Humidity: <span>{data.hum}%</span></p>
+                    <p>Wind: <span>{data.wind}{data.scale === 'metric' ? 'km/h' : 'mph'}</span> </p>
                 </div>
             </div>
         </div>

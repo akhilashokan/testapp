@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 0.5rem 1rem;
+    padding: 29px 25px 29px 42px;
     width: 100%;
     max-width: 363px;
     background-color: #ffffff;
@@ -27,6 +27,10 @@ p {
     gap: 2rem;
 }
 
+.row:nth-child(2) {
+    justify-content: space-between;
+}
+
 .niceInfo {
     text-align: left;
 }
@@ -45,4 +49,8 @@ p {
 .info {
     text-align: right;
     font-size: 0.8em;
+}
+
+.info span {
+    color: #86BF02;
 }

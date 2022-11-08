@@ -20,6 +20,10 @@ aside h4 {
 
 }
 
+aside p {
+    color: #052825;
+}
+
 .icon {
     height: 52px;
     display: flex;
@@ -27,7 +31,39 @@ aside h4 {
     font-size: 1em;
     margin-bottom: 9px;
     padding-left: 22px;
-    border-left: 4px solid transparent;
+    gap: 1rem;
+    position: relative;
+}
+
+.icon::before {
+    content: '';
+    width: 3px;
+    height: 60%;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.icon:active,
+.icon:focus,
+.icon:hover {
+    color: #00A86B;
+}
+
+.icon:active path,
+.icon:focus path,
+.icon:hover path {
+    fill: #00A86B;
+}
+
+.icon:active::before,
+.icon:focus::before,
+.icon:hover::before {
+    background-color: #00A86B;
 }
 
 .extras header {
@@ -47,18 +83,12 @@ aside h4 {
     transition: 0.3s ease-in-out;
 }
 
-.icon:active,
-.icon:focus,
-.icon:hover {
-    border-left: 4px solid green;
-    color: green;
-}
-
 .upsell {
-    background-color: rgba(144, 238, 144, 0.555);
+    background-color: #a8ce9931;
     font-size: 0.8em;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    margin: 1rem;
 }
 
 .upsell h3 {
